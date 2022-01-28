@@ -9,7 +9,7 @@ NAMESERVERS=`cat /etc/resolv.conf | grep ^nameserver | cut -d " " -f 2 | sed 's/
 
 PROVIDERS="
 1.1.1.1#cloudflare 
-4.2.2.1#level3 
+209.244.0.3#level3 
 8.8.8.8#google 
 9.9.9.9#quad9 
 80.80.80.80#freenom 
@@ -20,6 +20,11 @@ PROVIDERS="
 176.103.130.132#adguard 
 156.154.70.3#neustar 
 8.26.56.26#comodo
+185.121.177.177#opennic
+37.235.1.174#freedns
+216.146.35.35#dyn
+117.50.11.11#onedns
+114.114.114.114#114dns
 "
 
 # Domains to test. Duplicated domains are ok
